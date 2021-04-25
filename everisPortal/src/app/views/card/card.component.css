@@ -1,0 +1,23 @@
+.cartaoPessoa {
+  width: 400px;
+  height: 300px;
+}
+
+
+.cartaoConteudo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cartaoInformacao {
+  display: flex;
+  flex-direction: column;
+}
+
+.cartaoImagem {
+  border-radius: 50%;
+  width: 40%;
+  height: 40%;
+  margin-right: 20px;
+}

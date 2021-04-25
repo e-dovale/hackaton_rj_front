@@ -1,0 +1,102 @@
+{
+  "nome": "Daniela Paranhas",
+  "cargo": "Gerente de Projetos",
+  "email": "dani@everis.com.br",
+  "lideres": [
+
+    {
+      "nome": "Juliana",
+      "cargo": "Líder de Projetos",
+      "email": "juliana@everis.com.br",
+      "listaRts": [{
+        "ltf": {
+          "nome": "Sassine",
+          "cargo": "Líder técnico",
+          "email": "sassine@everis.com.br"
+        },
+        "squads": [{
+          "developers": [{
+              "nome": "Steve Jobs",
+              "cargo": "Dev Android",
+              "email": "jobs@everis.com.br"
+            },
+            {
+              "nome": "Bill Gates",
+              "cargo": "Dev iOS",
+              "email": "dani@everis.com.br"
+            }
+          ],
+          "nome": "Squad Rede",
+          "productOwner": {
+            "email": "string",
+            "nome": "string",
+            "cargo": "teste",
+            "racf": "string"
+          },
+          "teamLead": {
+            "email": "string",
+            "nome": "string",
+            "cargo": "teste",
+            "racf": "string"
+          },
+          "techLead": {
+            "email": "string",
+            "cargo": "teste",
+            "nome": "string",
+            "racf": "string"
+          },
+          "urlAgenda": "string"
+        }]
+      }]
+    },
+    {
+      "nome": "Aline",
+      "cargo": "Líder de Projetos",
+      "email": "aline@everis.com.br",
+      "listaRts": [{
+        "ltf": {
+          "nome": "Robson",
+          "cargo": "Líder técnico",
+          "email": "robson@everis.com.br"
+        },
+        "nome": "Produtos PJ",
+        "cargo": "",
+        "email": "produtospj@itau.com",
+        "squads": [{
+          "developers": [{
+              "nome": "Pelé",
+              "cargo": "Estagiário front-end",
+              "email": "edson@everis.com.br"
+            },
+            {
+              "nome": "Edu",
+              "cargo": "Full Stack",
+              "email": "edu@everis.com.br"
+            }
+          ],
+          "nome": "Reneg",
+          "productOwner": {
+            "email": "string",
+            "nome": "string",
+            "cargo": "teste",
+            "racf": "string"
+          },
+          "teamLead": {
+            "email": "string",
+            "nome": "string",
+            "cargo": "teste",
+            "racf": "string"
+          },
+          "techLead": {
+            "email": "string",
+            "cargo": "teste",
+            "nome": "string",
+            "racf": "string"
+          },
+          "urlAgenda": "string"
+
+        }]
+      }]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span>everis</span>
+  </mat-toolbar-row>
+
+</mat-toolbar>
+<div class="cards">
+
+  <app-card [dadosPessoa]='pessoa'></app-card>
+
+</div>
+
+<div class="cardLider">
+  <app-card *ngFor="let lider of pessoa.lideres" [dadosPessoa]='lider'></app-card>
+</div>
+
+<div class="cardRT">
+
+  <div *ngFor="let rt of pessoa.lideres[0].listaRts">
+    <app-card [dadosPessoa]='rt'></app-card>
+
+    <div class="cardSquad" *ngFor="let squad of rt.squads">
+      <app-card [dadosPessoa]='squad'></app-card>
+
+      <div class="cardDevs" *ngFor="let dev of squad.developers">
+        <app-card [dadosPessoa]='dev'></app-card>
+      </div>
+    </div>
+  </div>
+
+  <div *ngFor="let rt of pessoa.lideres[1].listaRts">
+    <app-card [dadosPessoa]='rt'></app-card>
+
+    <div class="cardSquad" *ngFor="let squad of rt.squads">
+      <app-card [dadosPessoa]='squad'></app-card>
+
+      <div class="cardDevs" *ngFor="let dev of squad.developers">
+        <app-card [dadosPessoa]='dev'></app-card>
+      </div>
+    </div>
+  </div>
+</div>
